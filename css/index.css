@@ -189,5 +189,103 @@
     letter-spacing: -0.01em;
     color: #ffffff;
   }
+  .services {
+    background: #2378FC;
+    width: 1920px;
+    height: 500px;
+  }
+  .services__content {
+    display: flex;
+    justify-content: space-between;
+    margin-left: -50px;
+  }
+  .services__title {
+    font-family: "Plumb", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 130%;
+    letter-spacing: -0.01em;
+    margin-top: 80px;
+    color: #FFFFFF;
+  }
+  .services__servis {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 135%;
+    color: #FFFFFF;
+    padding-top: 30px;
+  }
+  .trends {
+    width: 1920px;
+    height: 984px;
+    background: #FFC41E;
+  }
+  .trends__content {
+    display: flex;
+  }
+  .trends__title{
+    font-family: 'Plumb', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 130%;
+    letter-spacing: -0.01em;
+    color: #2E373B;
+    margin-top: 75px;
+    margin-left: -43px;
+  }
+  .trends__btn {
+    display: flex;
+    font-size: 21px;
+    text-decoration-line: underline;
+    margin-top: 75px;
+    margin-left: 450px;
+    align-items: center;
+    color: #000000;
+  }
+  .trends__btn span {
+    margin-right: 10px;
+  }
+  .trends__container {
+    margin-left: -514px;
+    justify-content: space-between;
+    display: flex;
+    position: absolute;
+    text-decoration-line: none;
+    margin-top: 340px;
+  }
+  .trends__img {
+    margin-left: 30px;
+  }
+  .trends__date {
+    font-family: 'Circe', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 135%;
+color: #2E373B;
+margin-left: 30px;
+  }
+   .trends__heading {
+    font-family: 'Plumb', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 130%;
+    letter-spacing: -0.01em;
+    color: #F6404F;
+    margin-left: 30px;
+   }
+   .trends__name {
+    font-family: 'Circe', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 135%;
+    color: #2E373B;
+    margin-left: 30px;
+   }
   /*# sourceMappingURL=index.css.map */
   

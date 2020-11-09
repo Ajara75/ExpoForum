@@ -45,6 +45,12 @@ span {
   display: flex;
 }
 
+.col-3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 .nav__menu {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -234,6 +240,87 @@ span {
 .services {
   background: #2378FC;
   width: 1920px;
-  height: 426px;
+  height: 500px;
+}
+
+.services__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-left: -55px;
+}
+
+.services__title {
+  font-family: "Plumb", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 130%;
+  letter-spacing: -0.01em;
+  margin-top: 80px;
+  color: #FFFFFF;
+}
+
+.services__servis {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 135%;
+  color: #FFFFFF;
+  padding-top: 30px;
+}
+
+.trends {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.trends__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.trends__title {
+  font-family: 'Plumb', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 130%;
+  letter-spacing: -0.01em;
+  color: #2E373B;
+  margin-top: 75px;
+}
+
+.trends__btn {
+  font-family: 'Plumb', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 21px;
+  line-height: 130%;
+  text-align: right;
+  letter-spacing: -0.01em;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  margin-top: 75px;
+  margin-left: 450px;
+}
+
+.trends__btn span {
+  margin-right: 10px;
+}
+
+.trends__container {
+  margin-left: -450px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 /*# sourceMappingURL=index.css.map */

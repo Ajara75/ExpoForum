@@ -1,0 +1,36 @@
+.trends {
+    display: flex;
+}
+.trends__content {
+    display: flex;
+}
+.trends__title{
+    font-family: 'Plumb', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 130%;
+    letter-spacing: -0.01em;
+    color: #2E373B;
+    margin-top: 75px;
+}
+.trends__btn {
+    font-family: 'Plumb', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    display: flex;
+    font-size: 21px;
+    line-height: 130%;
+    text-align: right;
+    letter-spacing: -0.01em;
+    text-decoration-line: underline;
+    margin-top: 75px;
+    margin-left: 450px;
+}
+.trends__btn span {
+    margin-right: 10px;
+}
+.trends__container {
+    margin-left: -450px;
+    justify-content: space-between;
+  }
