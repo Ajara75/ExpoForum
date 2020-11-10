@@ -3,26 +3,26 @@
     width: 1920px;
     height: 500px;
 }
-.services__content {
+  &__content {
     display: flex;
     justify-content: space-between;
     margin-left: -55px;
 }
-.services__title {
+  &__title {
     font-family: "Plumb", sans-serif;
     font-style: normal;
-font-weight: 500;
-font-size: 30px;
-line-height: 130%;
-letter-spacing: -0.01em;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 130%;
+    letter-spacing: -0.01em;
     margin-top: 80px;
     color: #FFFFFF;
 }
-.services__servis {
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 135%;
-color: #FFFFFF;
-padding-top: 30px;
+  &__servis {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 135%;
+    color: #FFFFFF;
+    padding-top: 30px;
 }

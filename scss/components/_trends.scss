@@ -1,10 +1,10 @@
 .trends {
     display: flex;
 }
-.trends__content {
+   &__content {
     display: flex;
 }
-.trends__title{
+   &__title{
     font-family: 'Plumb', sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -14,7 +14,7 @@
     color: #2E373B;
     margin-top: 75px;
 }
-.trends__btn {
+   &__btn {
     font-family: 'Plumb', sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -27,10 +27,14 @@
     margin-top: 75px;
     margin-left: 450px;
 }
-.trends__btn span {
+   &__btn span {
     margin-right: 10px;
 }
-.trends__container {
+   &__container {
     margin-left: -450px;
     justify-content: space-between;
-  }
+}
+   &__container--two {
+    margin-left: -450px;
+    justify-content: space-between;
+}
